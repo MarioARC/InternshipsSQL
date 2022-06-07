@@ -28,3 +28,9 @@ FROM internships
 ORDER BY name;
 
 .print
+
+SELECT *
+FROM internships
+WHERE worktype = 'Internship';
+
+.print
