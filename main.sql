@@ -18,3 +18,11 @@ INSERT INTO internships values
   
 SELECT *
 FROM internships
+
+.print
+
+SELECT *
+FROM internships
+WHERE worktype = 'Internship'
+
+.print
