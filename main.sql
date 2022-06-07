@@ -17,12 +17,6 @@ INSERT INTO internships values
 .print
   
 SELECT *
-FROM internships
-
-.print
-
-SELECT *
-FROM internships
-WHERE worktype = 'Internship'
+FROM internships;
 
 .print
