@@ -8,4 +8,13 @@ CREATE TABLE internships
 );
 
 INSERT INTO internships values
-('Software Development Internship', 'Internship', '55k-120k', 'Irvine, CA', 'Numecent');
+  ('Software Development Internship', 'Internship', '55k-120k', 'Irvine, CA', 'Numecent'),
+  ('Software Engineer Intern', 'Full-time', '33k-110k', 'El Segundo, CA', 'Teradata'),
+  ('Enterprise Software Engineer', 'Full-time', 'unknown', 'Illinois', 'Wolters Kluwer');
+
+.print
+.print 'Internships'
+.print
+  
+SELECT *
+FROM internships
