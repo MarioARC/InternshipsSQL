@@ -1,12 +1,11 @@
 CREATE TABLE internships
 (
   name TEXT,
-  workhours TEXT,
-  income DOUBLE,
+  worktype TEXT,
+  income TEXT,
   location TEXT,
-  requirements TEXT,
-  companytype TEXT,
   employer TEXT
 );
 
 INSERT INTO internships values
+('Software Development Internship', 'Internship', '55k-120k', 'Irvine, CA', 'Numecent');
